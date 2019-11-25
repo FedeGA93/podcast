@@ -330,7 +330,11 @@ iframe {
   iframe{
     padding: 1%
   }
-  
+  .alineado{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
 }
 /* 
   ***************************************************

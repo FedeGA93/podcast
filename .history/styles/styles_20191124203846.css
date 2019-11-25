@@ -124,9 +124,6 @@ input {
 .informacion {
   display: flex;
   justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-  
 }
 
 .btn {
@@ -279,7 +276,12 @@ iframe {
     letter-spacing: 0;
     line-height: 22px;
   }
-    h2.color-blanco {
+  /* article.fondo-azul-gradiente {
+    background-image: linear-gradient(225deg, #0000ff 0%, #000003 100%);
+    width: 100%;
+    
+  } */
+  h2.color-blanco {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 36px;
     color: #ffffff;
@@ -293,9 +295,9 @@ iframe {
     letter-spacing: 0;
     line-height: 42px;
   }
-  .cnmas {
+  article.conoce-mas {
     height: 48px;
-    width: 100%;
+    width: 288px;
   }
   .barras-negras-hamburger {
     display: block;
@@ -307,7 +309,7 @@ iframe {
     border-radius: 3px;
   }
   .sec{
-    height: 138vh;
+    height: auto;
   }
   .phone{
     top:-60px;
@@ -325,12 +327,14 @@ iframe {
   }
   .photos{
     height: auto;
-    width: 100vw;
+    width: fit-content;
   }
   iframe{
     padding: 1%
   }
-  
+  .informacion{
+    flex-flow: column;
+  }
 }
 /* 
   ***************************************************

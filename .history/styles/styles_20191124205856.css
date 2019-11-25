@@ -126,7 +126,7 @@ input {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  
+  align-text: center;
 }
 
 .btn {
@@ -330,7 +330,11 @@ iframe {
   iframe{
     padding: 1%
   }
-  
+  .alineado{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
 }
 /* 
   ***************************************************

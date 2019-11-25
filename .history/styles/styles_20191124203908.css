@@ -124,9 +124,6 @@ input {
 .informacion {
   display: flex;
   justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-  
 }
 
 .btn {
@@ -293,9 +290,9 @@ iframe {
     letter-spacing: 0;
     line-height: 42px;
   }
-  .cnmas {
+  article.conoce-mas {
     height: 48px;
-    width: 100%;
+    width: 288px;
   }
   .barras-negras-hamburger {
     display: block;
@@ -307,7 +304,7 @@ iframe {
     border-radius: 3px;
   }
   .sec{
-    height: 138vh;
+    height: auto;
   }
   .phone{
     top:-60px;
@@ -325,12 +322,14 @@ iframe {
   }
   .photos{
     height: auto;
-    width: 100vw;
+    width: fit-content;
   }
   iframe{
     padding: 1%
   }
-  
+  .informacion{
+    flex-flow: column;
+  }
 }
 /* 
   ***************************************************
