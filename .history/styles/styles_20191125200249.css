@@ -200,7 +200,7 @@ iframe {
   z-index: 1;
   width:44%;
   height: 232px ;
-  
+  allowtransparency="true" frameborder="0" allow="encrypted-media"
 }
 
 .paddie {
@@ -230,7 +230,7 @@ iframe {
 .flex-end{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 /* 
   ***************************************************

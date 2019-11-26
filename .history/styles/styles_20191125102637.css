@@ -200,7 +200,6 @@ iframe {
   z-index: 1;
   width:44%;
   height: 232px ;
-  
 }
 
 .paddie {
@@ -226,11 +225,6 @@ iframe {
 }
 .top{
   margin-top:5%;
-}
-.flex-end{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 /* 
   ***************************************************
@@ -316,13 +310,7 @@ iframe {
     border-radius: 3px;
   }
   .sec{
-    height: 160vh;
-  }
-  .secfoot{
-    height: 40vh;
-  }
-  .center-text{
-    text-align: center;
+    height: 172vh;
   }
   .phone{
     top:-60px;

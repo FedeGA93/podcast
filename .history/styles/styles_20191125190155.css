@@ -200,7 +200,6 @@ iframe {
   z-index: 1;
   width:44%;
   height: 232px ;
-  
 }
 
 .paddie {
@@ -229,8 +228,7 @@ iframe {
 }
 .flex-end{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-d;
 }
 /* 
   ***************************************************
