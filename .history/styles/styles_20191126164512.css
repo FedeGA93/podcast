@@ -379,7 +379,14 @@ input[type="checkbox"]:checked ~ .menu-hijo {
  
 
 }
-
+.menu-hijo{
+  display: block;
+  z-index: 100;
+}
+.contenedor {
+  display: block;
+  cursor: pointer;
+}
 
 input {
   display: none;

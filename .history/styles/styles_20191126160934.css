@@ -14,7 +14,7 @@
   top: 0;
   overflow: hidden;
 }
-.menu-hijo {
+.menu-child {
   display: flex;
   flex-flow: row wrap;
   text-decoration: none;
@@ -23,12 +23,12 @@
   text-indent: 20px;
 }
 
-.primera-caja {
+.first-box {
   display: flex;
   flex-flow: column;
   padding: 0 13%;
 }
-.centrado {
+.main-child {
   justify-content: center;
 }
 .color-letras:active {
@@ -53,7 +53,7 @@ h1 {
   color: #060a24;
   letter-spacing: 0;
 }
-.color-punto {
+.strong-dot {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 64px;
   color: #0000ec;
@@ -187,7 +187,7 @@ input {
   justify-content: space-evenly;
   text-align: center;
 }
-.telefono {
+.phone {
   position: relative;
   top: -311px;
   height: 660px;
@@ -267,13 +267,17 @@ iframe {
   .responsive-logo {
     margin: 2.2% 87.5% 1.2% 2%;
   }
-  .menu-hijo {
+  .menu-child {
     display: none;
   }
-  .menu-hijo:hover {
+  .menu-child:hover {
     display: block;
   }
-   h1 {
+  #burger {
+    display: flex;
+    justify-content: flex-end;
+  }
+  h1 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 36px;
     color: #060a24;
@@ -281,21 +285,21 @@ iframe {
     line-height: 42px;
   }
 
-  .parrafos-general {
+  p.parrafos-general {
     font-family: "IBM Plex Mono", monospace;
     font-size: 14px;
     color: #060a24;
     letter-spacing: 0;
     line-height: 22px;
   }
-  .color-blanco {
+    h2.color-blanco {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 36px;
     color: #ffffff;
     letter-spacing: 0;
     line-height: 42px;
   }
-  .color-negro {
+  h2.color-negro {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 36px;
     color: #060a24;
@@ -324,7 +328,7 @@ iframe {
   .center-text{
     text-align: center;
   }
-  .telefono{
+  .phone{
     top:-60px;
     padding: 0 0 0 9%;
     width: 360px;
@@ -358,8 +362,8 @@ iframe {
   /* A partir de acá*/
 
 input[type="checkbox"]:checked ~ label > span.bar1 {
-  -webkit-transform: rotate(-45deg) translate(-8px, 8px);
-  transform: rotate(-45deg) translate(-8px, 8px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
   transition-delay: 0.1s;
 }
 input[type="checkbox"]:checked ~ label > span.bar2 {
@@ -370,23 +374,23 @@ input[type="checkbox"]:checked ~ label > span.bar3 {
   transform: rotate(45deg) translate(-8px, -8px);
   transition-delay: 0.1s;
 }
-input[type="checkbox"]:checked ~ .menu-hijo {
+input[type="checkbox"]:checked ~ .menu-child {
   background-color: blue;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
   margin: auto;
   padding: initial;
-  z-index:1000;
- 
+  transition: all 10s;
 
 }
-
+.container {
+  display: block;
+  cursor: pointer;
+}
 
 input {
   display: none;
-}
-.fija-menu{
-  display: block;
-  direction: rtl;
 }
 /* hasta acá*/
 }

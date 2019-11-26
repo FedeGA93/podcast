@@ -372,14 +372,17 @@ input[type="checkbox"]:checked ~ label > span.bar3 {
 }
 input[type="checkbox"]:checked ~ .menu-hijo {
   background-color: blue;
-  display: block;
+  display: ;
   margin: auto;
   padding: initial;
   z-index:1000;
  
 
 }
-
+.contenedor {
+  display: block;
+  cursor: pointer;
+}
 
 input {
   display: none;

@@ -359,7 +359,7 @@ iframe {
 
 input[type="checkbox"]:checked ~ label > span.bar1 {
   -webkit-transform: rotate(-45deg) translate(-8px, 8px);
-  transform: rotate(-45deg) translate(-8px, 8px);
+  transform: rotate(-45deg) translate(-9px, 8px);
   transition-delay: 0.1s;
 }
 input[type="checkbox"]:checked ~ label > span.bar2 {
@@ -370,23 +370,23 @@ input[type="checkbox"]:checked ~ label > span.bar3 {
   transform: rotate(45deg) translate(-8px, -8px);
   transition-delay: 0.1s;
 }
-input[type="checkbox"]:checked ~ .menu-hijo {
+input[type="checkbox"]:checked ~ .menu-child {
   background-color: blue;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
   margin: auto;
   padding: initial;
-  z-index:1000;
- 
+  transition: all 10s;
 
 }
-
+.contenedor {
+  display: block;
+  cursor: pointer;
+}
 
 input {
   display: none;
-}
-.fija-menu{
-  display: block;
-  direction: rtl;
 }
 /* hasta acá*/
 }
