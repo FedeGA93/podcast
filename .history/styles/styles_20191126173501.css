@@ -9,7 +9,7 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  padding: 0 190px 0 100px;
+  padding: 22px 244px 120px 100px;
   position: static;
   top: 0;
   overflow: hidden;
@@ -21,22 +21,12 @@
   list-style-type: none;
   justify-content: flex-end;
   text-indent: 20px;
-  
 }
-.nav{
-  position:sticky;
-  top:0;
-  z-index:1000;
-  background-image: linear-gradient(225deg, #012392af 0%, #000003 100%);
-  }
-  .zeta-index{
-    z-index:100;
-  }
 
 .primera-caja {
   display: flex;
   flex-flow: column;
-  padding: 7% 13% 0;
+  padding: 0 13%;
 }
 .centrado {
   justify-content: center;
@@ -51,7 +41,7 @@
 .color-letras {
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
-  color: white;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 28px;
   text-decoration: none;
@@ -102,13 +92,6 @@ input {
 }
 
 /* Cortes del fondo */
-svg {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  
-}
 
 .corteuno {
   position: absolute;
@@ -126,14 +109,13 @@ svg {
   border-style: solid;
   border-color: transparent transparent #fff;
 }
-/* terminan los cortes */
+
 .color-blanco {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 48px;
   color: #ffffff;
   letter-spacing: 0;
-}
-.color-negro {
+}.color-negro {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
   color: #060a24;
@@ -143,6 +125,8 @@ svg {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+
+  
 }
 
 .btn {
@@ -162,14 +146,16 @@ svg {
 .btn:focus {
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
   color: #ffffff;
+  
 }
-.cnmas {
+.cnmas{
   height: 56px;
   width: 226px;
 }
-.ele {
+.ele{
   width: 345px;
   height: 56px;
+  
 }
 
 .flex {
@@ -179,12 +165,12 @@ svg {
   justify-content: space-between;
 }
 .pad {
-  padding: 7% 12.76% 0;
+  padding:7% 12.76% 0;
 }
 .flex-spotify {
   display: flex;
   flex-flow: row wrap;
-  padding: 2% 8%;
+  padding: 2% 8% ;
 }
 .temas {
   font-family: "IBMPlexSans";
@@ -212,8 +198,9 @@ iframe {
   padding: 0 72px 72px 0;
   position: relative;
   z-index: 1;
-  width: 44%;
-  height: 232px;
+  width:44%;
+  height: 232px ;
+  
 }
 
 .paddie {
@@ -225,33 +212,25 @@ iframe {
   height: 364px;
 }
 .photo-box {
-  width: fit-content;
+  width:fit-content;
   display: grid;
   grid-template-columns: repeat(3, 0fr);
- 
+  grid-template-rows: repeat(2, min(25vw));
 }
-.limit-text {
+.limit-text{
   width: 54%;
 }
-.theme-size {
+.theme-size{
   width: 104px;
   height: 104px;
 }
-.top {
-  margin-top: 5%;
+.top{
+  margin-top:5%;
 }
-.flex-end {
+.flex-end{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-.sin-deco a {
-  text-decoration: none;
-  color: black;
-
-}
-.sin-deco{
-  padding-right: 1%;
 }
 /* 
   ***************************************************
@@ -271,20 +250,20 @@ iframe {
     padding: 0;
     border: 0;
   }
-  .estilo-header {
+  .estilo-header{
     padding: 3%;
-  }
+    }
   .barra-navegadora {
     display: none;
   }
-  .menu {
+  .menu{
     padding: 0px;
     position: sticky;
   }
   .seccion {
     width: 100%;
   }
-
+  
   .responsive-logo {
     margin: 2.2% 87.5% 1.2% 2%;
   }
@@ -294,7 +273,7 @@ iframe {
   .menu-hijo:hover {
     display: block;
   }
-  h1 {
+   h1 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 36px;
     color: #060a24;
@@ -327,7 +306,6 @@ iframe {
     height: 48px;
     width: 100%;
   }
-  
   .barras-negras-hamburger {
     display: block;
     width: 33px;
@@ -337,104 +315,81 @@ iframe {
     background: black;
     border-radius: 3px;
   }
-  .sec {
+  .sec{
     height: 165vh;
   }
-  .secfoot {
+  .secfoot{
     height: 40vh;
   }
-  .center-text {
+  .center-text{
     text-align: center;
   }
-  .telefono {
-    top: -60px;
+  .telefono{
+    top:-60px;
     padding: 0 0 0 9%;
     width: 360px;
     height: 519px;
+
   }
-  .photo-box {
+  .photo-box{
     grid-template-columns: repeat(1, 0);
     grid-template-rows: repeat(1, 16.5%);
   }
-  .paddie {
+  .paddie{
     margin: 0;
   }
-  .photos {
+  .photos{
     height: auto;
     width: 100vw;
   }
-  iframe {
+  iframe{
     padding: 1%;
     width: auto;
   }
-  .informacion {
+  .informacion{
     flex-direction: column;
   }
-  .alineado {
+  .alineado{
     flex-direction: column;
   }
-  .flex-spotify {
+  .flex-spotify{
     padding: 2% 15%;
   }
-  /* A partir de acá es el menu*/
+  /* A partir de acá*/
 
-  input[type="checkbox"]:checked ~ label > span.bar1 {
-    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
-    transform: rotate(-45deg) translate(-8px, 6px);
-    transition-delay: 0.1s;
-  }
-  input[type="checkbox"]:checked ~ label > span.bar2 {
-    opacity: 0;
-  }
-  input[type="checkbox"]:checked ~ label > span.bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -6px);
-    transform: rotate(45deg) translate(-8px, -6px);
-    transition-delay: 0.1s;
-  }
-  input[type="checkbox"]:checked ~ .menu-hijo {
-    background-color: blue;
-    display: block;
-    margin: auto;
-    padding: initial;
-    z-index: 1000;
-    color: #fff;
-  }
+input[type="checkbox"]:checked ~ label > span.bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px,6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+  transition-delay: 0.1s;
+}
+input[type="checkbox"]:checked ~ label > span.bar2 {
+  opacity: 0;
+}
+input[type="checkbox"]:checked ~ label > span.bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -6px);
+  transform: rotate(45deg) translate(-8px, -6px);
+  transition-delay: 0.1s;
+}
+input[type="checkbox"]:checked ~ .menu-hijo {
+  background-color: blue;
+  display: block;
+  margin: auto;
+  padding: initial;
+  z-index:1000;
+  color
+ 
 
-  input {
-    display: none;
-  }
-  .fija-menu {
-    display: block;
-    direction: rtl;
-  }
-  /* hasta acá*/
-  svg{
-    bottom: 50%;
-  }
 }
 
-@media screen and (max-width: 349px) {
-  .sec {
-    width: 129%;
-  }
-  .photos {
-    width: 411px;
-  }
-  .cnmas {
-    width: 100vw;
-  }
-  .corteuno {
-    border-width: 0 0 12vw 158vw;
-  }
-  .cortedos {
-    border-width: 0 0 19vw 129vw;
-  }
-  .secfoot{
-    width: 129vw;
-  }
-  .top{
-    margin-left: 27%;
-  }
+
+input {
+  display: none;
+}
+.fija-menu{
+  display: block;
+  direction: rtl;
+}
+/* hasta acá*/
 }
 /* 
   ***************************************************
@@ -447,7 +402,3 @@ iframe {
      **********************************************
    **************************************************
  */
-/*  @media screen and (max-width:601px) {
-
-
-  } */

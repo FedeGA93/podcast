@@ -9,7 +9,8 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  padding: 0 190px 0 100px;
+  margin-top:22px;
+  padding: 0 190px px 100px;
   position: static;
   top: 0;
   overflow: hidden;
@@ -21,17 +22,7 @@
   list-style-type: none;
   justify-content: flex-end;
   text-indent: 20px;
-  
 }
-.nav{
-  position:sticky;
-  top:0;
-  z-index:1000;
-  background-image: linear-gradient(225deg, #012392af 0%, #000003 100%);
-  }
-  .zeta-index{
-    z-index:100;
-  }
 
 .primera-caja {
   display: flex;
@@ -51,7 +42,7 @@
 .color-letras {
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
-  color: white;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 28px;
   text-decoration: none;
@@ -248,10 +239,6 @@ iframe {
 .sin-deco a {
   text-decoration: none;
   color: black;
-
-}
-.sin-deco{
-  padding-right: 1%;
 }
 /* 
   ***************************************************

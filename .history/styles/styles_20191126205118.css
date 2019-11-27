@@ -29,9 +29,6 @@
   z-index:1000;
   background-image: linear-gradient(225deg, #012392af 0%, #000003 100%);
   }
-  .zeta-index{
-    z-index:100;
-  }
 
 .primera-caja {
   display: flex;
@@ -248,10 +245,7 @@ iframe {
 .sin-deco a {
   text-decoration: none;
   color: black;
-
-}
-.sin-deco{
-  padding-right: 1%;
+  padding-left: 1%;
 }
 /* 
   ***************************************************

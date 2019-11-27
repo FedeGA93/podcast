@@ -29,9 +29,7 @@
   z-index:1000;
   background-image: linear-gradient(225deg, #012392af 0%, #000003 100%);
   }
-  .zeta-index{
-    z-index:100;
-  }
+  .zeta-index
 
 .primera-caja {
   display: flex;
